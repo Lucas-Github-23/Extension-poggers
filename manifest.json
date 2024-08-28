@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Typer Extension",
+  "version": "1.0",
+  "description": "Uma extensão que simula a digitação automática de texto.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon.png"
+    }
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  }
+}
