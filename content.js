@@ -39,10 +39,10 @@ function emulateTyping(text, session, delayedStart) {
                 activeElement.dispatchEvent(event);
                 document.execCommand("insertText", false, text[i++]);
 
-                let delay = Math.random() * (200 - 50) + 50;
+                let delay = Math.random() * (60 - 20) + 20;
 
                 if (Math.random() < 0.05) {
-                    delay += Math.random() * (700 - 200) + 200;
+                    delay += Math.random() * (200 - 100) + 100;
                 }
 
                 setTimeout(typeNextCharacter, delay);
